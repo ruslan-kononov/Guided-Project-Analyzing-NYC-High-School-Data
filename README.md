@@ -1,12 +1,26 @@
 # Guided-Project-Analyzing-NYC-High-School-Data
-New York City has published data on student SAT scores by high school, along with additional demographic data sets. To carry out the analysis the following data sets have been merged into a single, clean pandas dataframe:
+## Academic success in high schools: What drives differences in SAT-scores across NYC?
+### Motivation 
+The results of the standardized SAT-exam is used by US-colleges to determine which high school graduates they admit. 
+Understanding if there are any unintended patterns or reasons discriminating against certain groups of students is an important step to making the US education system more equal - something the US Department of Education states as a "formidable challenge".
 
-- <a href="">SAT scores by school - SAT scores for each high school in New York City</a>
-- <a href="">School attendance - Attendance information for each school in New York City</a>
-- <a href="">Class size - Information on class size for each school</a>
-- <a href="">AP test results - Advanced Placement (AP) exam results for each high school (passing an optional AP exam in a particular subject can earn a student college credit in that subject)</a>
-- <a href="">Graduation outcomes - The percentage of students who graduated, and other outcome information</a>
-- <a href="">Demographics - Demographic information for each school</a>
-- <a href="">School survey - Surveys of parents, teachers, and students at each school</a>
+The analysis seeks to answer the following question:
+- Which factors drive differences in SAT-scores and thus opportunities to attend (selective) US-colleges?
 
-New York City has a significant immigrant population and is very diverse, so comparing demographic factors such as race, income, and gender with SAT scores is a good way to determine whether the SAT is a fair test. For example, if certain racial groups consistently perform better on the SAT, we would have some evidence that the SAT is unfair.
+### Methodology
+
+This analysis will use descriptive statistics (e.g. mean, correlations) and data visualizations (e.g. scatter plots, bar charts, maps) to explore the following datasets on NYC high schools:
+
+- <a href='https://data.cityofnewyork.us/Education/2012-SAT-Results/f9bf-2cp4'>SAT scores by school - SAT scores for each high school in New York City</a>
+- <a href='https://data.cityofnewyork.us/Education/2010-2011-School-Attendance-and-Enrollment-Statist/7z8d-msnt'>School attendance - Attendance information for each school in New York City</a>
+- <a href='https://data.cityofnewyork.us/Education/2010-2011-Class-Size-School-level-detail/urz7-pzb3'>Class size - Information on class size for each school</a>
+- <a href='https://data.cityofnewyork.us/Education/2010-AP-College-Board-School-Level-Results/itfs-ms3e'>AP test results - Advanced Placement (AP) exam results for each high school (passing an optional AP exam in a particular subject can earn a student college credit in that subject)</a>
+- <a href='https://data.cityofnewyork.us/Education/2005-2010-Graduation-Outcomes-School-Level/vh2h-md7a'>Graduation outcomes - The percentage of students who graduated, and other outcome information</a>
+- <a href='https://data.cityofnewyork.us/Education/2006-2012-School-Demographics-and-Accountability-S/ihfw-zy9j'>Demographics - Demographic information for each school</a>
+- <a href='https://data.cityofnewyork.us/Education/2011-NYC-School-Survey/mnz3-dyi8'>School survey - Surveys of parents, teachers, and students at each school</a>
+
+To carry out the analysis these data sets have been merged into a single, clean pandas dataframe.
+
+__NB!This project is carried out according to the <a href='https://www.dataquest.io'>Dataquest's</a> instructions.__
+
+
