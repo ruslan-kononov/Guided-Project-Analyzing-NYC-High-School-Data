@@ -1,4 +1,4 @@
-# Guided-Project-Analyzing-NYC-High-School-Data
+# Guided Project: Analyzing NYC High School Data
 ## Academic success in high schools: What drives differences in SAT-scores across NYC?
 ### Motivation 
 The results of the standardized SAT-exam is used by US-colleges to determine which high school graduates they admit. 
@@ -22,5 +22,3 @@ This analysis will use descriptive statistics (e.g. mean, correlations) and data
 To carry out the analysis these data sets have been merged into a single, clean pandas dataframe.
 
 __NB!This project is carried out according to the <a href='https://www.dataquest.io'>Dataquest's</a> instructions.__
-
-
