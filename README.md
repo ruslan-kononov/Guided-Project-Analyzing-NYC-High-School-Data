@@ -21,4 +21,4 @@ This analysis will use descriptive statistics (e.g. mean, correlations) and data
 
 To carry out the analysis these data sets have been merged into a single, clean pandas dataframe.
 
-__NB!This project is carried out according to the <a href='https://www.dataquest.io'>Dataquest's</a> instructions.__
+<a href="https://nbviewer.jupyter.org/github/ruslan-kononov/Guided-Project-Analyzing-NYC-High-School-Data/blob/master/Schools.ipynb">Click here to view the jupyter notebook file</a>
